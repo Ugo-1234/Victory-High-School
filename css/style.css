@@ -8,6 +8,7 @@
   --success:#10b981;
   --danger:#ef4444;
   --text: #ffff;
+  --text2: rgb(17, 0, 249);
   --shadow: #ffd95e;
   --glass: rgba(255,255,255,0.04);
   --radius:12px;
@@ -278,7 +279,7 @@ input:focus, select:focus, textarea:focus{
   box-shadow: var(--shadow);
 }
 
-.marquee {
+.marquee { 
   font-style: italic;
   font-family: 'Times New Roman', Times, serif;
   color: var(--muted);
@@ -298,3 +299,20 @@ input:focus, select:focus, textarea:focus{
   border-color:none;  
 }
 
+/* history style */
+.History {
+  background-color: var(--success);
+  padding:5px;
+  margin: 16px;
+  border-radius: 10px;  
+}
+
+.text {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size:16px;
+  font-weight: 900;
+  font-style: oblique;
+  color: var(--text2);
+  margin: 10px;
+  padding: 5px; 
+}

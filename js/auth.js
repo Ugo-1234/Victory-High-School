@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const pw = document.getElementById('password').value;
       const cpw = document.getElementById('confirmPassword').value;
       if (pw !== cpw) {
-        alert('Passwords do not match');
+        alert('Passwords do not match'); 
         return;
       }
       // Simple demo: store user in localStorage (replace with server call later)
