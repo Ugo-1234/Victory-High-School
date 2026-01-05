@@ -1,0 +1,62 @@
+/* About styles */
+.mainhead {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: var(--text);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.Heading {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  color:var(--text)
+}
+
+.headercon {
+  background-color: var(--primary);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  box-shadow: var(--shadow);
+}
+
+.marquee { 
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  color: var(--muted);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.contact {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: var(--muted);
+  background-color: var(--primary);
+  padding: 5px;
+  margin: 10px;
+  border-radius: 10px;
+  border-color:none;  
+}
+
+/* history style */
+.History {
+  background-color: var(--success);
+  padding:5px;
+  margin: 16px;
+  border-radius: 10px;  
+}
+
+.text {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size:16px;
+  font-weight: 900;
+  font-style: oblique;
+  color: var(--text2);
+  margin: 10px;
+  padding: 5px; 
+}
