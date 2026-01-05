@@ -140,28 +140,6 @@ body{
   border: 1px solid rgba(255,255,255,0.03);
 }
 
-/* Forms */
-.form-row{display:flex;flex-direction:column;gap:8px;margin-bottom:12px}
-label{font-size:.9rem;color:var(--muted);font-weight:600}
-input[type="text"], input[type="email"], input[type="password"], select, textarea{
-  background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
-  border:1px solid rgba(255,255,255,0.04);
-  color: #e9f0ff;
-  padding:10px 12px;
-  border-radius:10px;
-  outline: none;
-  transition: box-shadow .12s var(--ease), transform .12s var(--ease);
-  font-size: .95rem;
-}
-input:focus, select:focus, textarea:focus{
-  box-shadow: 0 6px 18px rgba(79,70,229,0.12);
-  border-color: rgba(79,70,229,0.6);
-  transform: translateY(-2px);
-}
-
-/* Form helpers */
-.help{font-size:.82rem;color:var(--muted);margin-top:6px}
-.form-actions{display:flex;gap:10px;align-items:center;margin-top:8px}
 
 /* Alerts */
 .alert{ 

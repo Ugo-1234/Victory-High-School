@@ -1,0 +1,45 @@
+:root{
+  --bg:#0f1724;            /* deep navy */
+  --card:#0b1220;
+  --muted:#9aa6bf;
+  --primary:#4f46e5;       /* indigo-600 */
+  --accent:#06b6d4;        /* teal-400 */
+  --success:#10b981;
+  --danger:#ef4444;
+  --text: #ffff;
+  --text2: rgb(17, 0, 249);
+  --shadow: #ffd95e;
+  --glass: rgba(255,255,255,0.04);
+  --radius:12px;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-strong: 700;
+  --max-w: 1100px;
+  --ease: cubic-bezier(.2,.9,.3,1);
+  --shadow: 0 8px 30px rgba(2,6,23,0.6);
+  --mono: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+
+/* Forms */
+.form-row{display:flex;flex-direction:column;gap:8px;margin-bottom:12px}
+label{font-size:.9rem;color:var(--muted);font-weight:600}
+input[type="text"], input[type="email"], input[type="password"], select, textarea{
+  background-color: var(--primary);
+  border:1px solid rgba(255,255,255,0.04);
+  color: #e9f0ff;
+  padding:10px 12px;
+  border-radius:10px;
+  outline: none;
+  transition: box-shadow .12s var(--ease), transform .12s var(--ease);
+  font-size: .95rem;
+}
+input:focus, select:focus, textarea:focus{
+  box-shadow: 0 6px 18px rgba(79,70,229,0.12);
+  border-color: rgba(79,70,229,0.6);
+  transform: translateY(-2px);
+}
+
+/* Form helpers */
+.help{font-size:.82rem;color:var(--muted);margin-top:6px}
+.form-actions{display:flex;gap:10px;align-items:center;margin-top:8px}
