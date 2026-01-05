@@ -26,7 +26,7 @@
 label{font-size:.9rem;color:var(--muted);font-weight:600}
 input[type="text"], input[type="email"], input[type="password"], select, textarea{
   background-color: var(--primary);
-  border:1px solid rgba(255,255,255,0.04);
+  border:1px solid var(--text);
   color: #e9f0ff;
   padding:10px 12px;
   border-radius:10px;
@@ -36,10 +36,24 @@ input[type="text"], input[type="email"], input[type="password"], select, textare
 }
 input:focus, select:focus, textarea:focus{
   box-shadow: 0 6px 18px rgba(79,70,229,0.12);
-  border-color: rgba(79,70,229,0.6);
+    border-color: var(--text);
   transform: translateY(-2px);
 }
 
 /* Form helpers */
 .help{font-size:.82rem;color:var(--muted);margin-top:6px}
 .form-actions{display:flex;gap:10px;align-items:center;margin-top:8px}
+
+button{
+  background-color: var(--text);
+  border-radius: 5px;
+  padding: 8px 10px;
+  font-weight: bolder;
+  margin: 2px;
+  border-color: var(--text);
+}
+
+button:hover{
+  background-color: var(--primary);
+  color: var(--text);
+}
