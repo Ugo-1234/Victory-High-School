@@ -43,24 +43,6 @@
   border-color:none;  
 }
 
-/* history style */
-.History {
-  background-color: var(--success);
-  padding:5px;
-  margin: 16px;
-  border-radius: 10px;  
-}
-
-.text {
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  font-size:16px;
-  font-weight: 900;
-  font-style: oblique;
-  color: var(--text2);
-  margin: 10px;
-  padding: 5px; 
-}
-
 
 button{
   background-color: var(--text);
