@@ -46,12 +46,11 @@ input:focus, select:focus, textarea:focus{
 
 
 .reg{
-  color: var(--muted);  
+  color: var(--text);
+  text-decoration: none;
 }
 
-.reg a:hover{
-    color: var(--text);
-}
+
 
 
 

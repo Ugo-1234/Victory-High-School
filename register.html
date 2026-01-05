@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register - School Website</title>
-    <link rel="stylesheet" href="css/style.css">    
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/login.css">   
 </head>
 <body>
      <header>
@@ -14,27 +15,27 @@
      <main>
         <form action="register.html" id="register form" class="form" enctype="multipart/form-data"></form>
         <p>
-          <label for="first name">First Name</label> 
+          <label for="first name">First Name</label> <br>
           <input type="text" id="first name" name="first name" required placeholder="Input first name">
         </p>
         <p>
-          <label for="last name">Last Name</label>  
+          <label for="last name">Last Name</label><br>
            <input type="text" id="last name" name="last name" required placeholder="Input last name"> 
         </p>
         <p>
-          <label for="UserName">UserName</label> 
+          <label for="UserName">UserName</label> <br>
           <input type="text" id="UserName" name="UserName" required placeholder="Input username"> 
         </p>
         <p>
-          <label for="email">Email</label>  
+          <label for="email">Email</label>  <br>
           <input type="email" id="email" name="email" required placeholder="Input email">  
         </p>
         <p>
-          <label for="password">Password</label>  
+          <label for="password">Password</label><br>  
           <input type="password" id="password" name="password" required placeholder="Input password">  
         </p>
         <p>
-          <label for="confirm password">Confirm password</label>  
+          <label for="confirm password">Confirm password</label> <br> 
           <input type="text" id="confirm password" name="confirm password" required placeholder="Confirm password">  
         </p>
         <p>
@@ -46,12 +47,12 @@
           </select>     
         </p>
         <p>
-          <label for="avatar">Profile Picture</label>  
+          <label for="avatar">Profile Picture</label>
           <input type="file" id="avatar" name="avatar" accept="image/*">        
         </p>
-        <button type="submit">Register</button>
-        <p>Already have an account
-        <a href="login.html">Login</a>
+        <button>Register</button>
+        <p>Already have an account?
+        <a class="reg" href="login.html">Login</a>
         </p>
     </main>
     <script src="js/auth.js"></script>
