@@ -60,3 +60,19 @@
   margin: 10px;
   padding: 5px; 
 }
+
+
+button{
+  background-color: var(--text);
+  color: var(--primary);
+  font-weight: bold;
+  margin: 10px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+}
+
+button:hover{
+  background-color: var(--primary);
+  color: var(--text);
+}
